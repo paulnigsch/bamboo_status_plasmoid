@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="name" type="String">
+      <default>Bambooplan1</default>
+    </entry>
+
+    <entry name="url" type="String">
+      <default>https://....</default>
+    </entry>
+
+    <entry name="credentials" type="String">
+      <default>username:password</default>
+    </entry>
+
+    <entry name="project_key" type="String">
+      <default>NGP</default>
+    </entry>
+
+    <entry name="plan_key" type="String">
+      <default>NGDEVCI</default>
+    </entry>
+
+
+  </group>
+</kcfg>
